@@ -1,0 +1,11 @@
+/*
+Theme Name: Scrappply
+Theme URI: http://github.com/scraperwiki/scrappply
+Description: A ScraperWiki skin for the Appply theme from WooThemes
+Author: Zarino Zappia
+Author URI: https://scraperwiki.com/about
+Template: appply
+Version: 1.0
+*/
+
+@import url("../appply/style.css")
