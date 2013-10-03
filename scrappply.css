@@ -189,6 +189,9 @@ body ul.nav li.li.current-menu-item a {
 #footer #footer-nav li a {
   color: #323232;
 }
+#footer .credit {
+  display: none;
+}
 #footer-widgets {
   border-bottom: 1px solid #dadada;
 }
