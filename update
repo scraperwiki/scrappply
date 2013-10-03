@@ -1,0 +1,6 @@
+#!/bin/sh
+
+git pull
+for f in *.css *.png;
+do curl -X PURGE -s -w "%{http_code} %{url_effective}\\n" -o /dev/null http://blog.scraperwiki.com/wp-content/themes/scrappply/$f;
+done;
