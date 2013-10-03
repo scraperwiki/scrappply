@@ -8,4 +8,5 @@ Template: appply
 Version: 1.0
 */
 
-@import url("../appply/style.css")
+@import url("../appply/style.css");
+@import url("scrappply.css");
