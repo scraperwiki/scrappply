@@ -642,6 +642,10 @@ div.woo-sc-box.normal {
 /*-------------------------------------------------------------------------------------------*/
 /* 9. FEATURED SLIDER */
 /*-------------------------------------------------------------------------------------------*/
+#featured-slider .slide-content p {
+  font-size: 1.2em;
+  margin-bottom: 1.2em;
+}
 #featured-slider {
   background: #27b1bf;
   color: #eeeeee;
