@@ -54,17 +54,16 @@
 /* 1.1 Defaults */
 body {
   color: #818181;
-  font-family: Helvetica, Arial, sans-serif;
 }
 hr {
   background-color: #ececec;
 }
 /* 1.2 Hyperlinks */
 a {
-  color: #176585;
+  color: #3399cc;
 }
 a:hover {
-  color: #004363;
+  color: #1177aa;
 }
 /* 1.3 Typography */
 h1,
@@ -73,7 +72,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Helvetica, Arial, sans-serif;
   color: #333333;
 }
 /* 1.4 Tables */
@@ -140,25 +138,25 @@ ul.nav li.current_page_parent a,
 ul.nav li.current-menu-ancestor a,
 ul.nav li.current-cat a,
 ul.nav li.li.current-menu-item a {
-  background: #20929d;
+  background: #37669a;
 }
 #navigation {
-  background: #20929d;
+  background: #37669a;
 }
 #navigation ul li a {
-  border-bottom: 1px solid #023e44;
+  border-bottom: 1px solid #102c4a;
   color: #ffffff;
 }
 /* 2.2.2 Top Navigation (optional) */
 #top {
-  background: #27b1bf;
+  background: #427ab8;
 }
 /* 2.3 Header */
 #header {
-  background: #27b1bf;
+  background: #427ab8;
 }
 #header .nav-toggle:after {
-  background: #49d3e1;
+  background: #649cda;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   -moz-background-clip: padding;
@@ -167,15 +165,13 @@ ul.nav li.li.current-menu-item a {
 }
 #header .site-description {
   color: #9b9b9b;
-  font-family: "Droid Serif", sans-serif;
 }
 #top-section {
-  background: #49d3e1;
-  border: 1px solid #5ae4f2;
+  background: #649cda;
+  border: 1px solid #75adeb;
 }
 #top-section header h1 {
-  font-family: 'Open Sans', sans-serif;
-  text-shadow: 1px -1px 0 #41cad8;
+  text-shadow: 1px -1px 0 #6594c8;
 }
 /* 2.6 Footer */
 #footer-wrapper {
@@ -196,9 +192,6 @@ ul.nav li.li.current-menu-item a {
 #footer-widgets {
   border-bottom: 1px solid #dadada;
 }
-#footer-widgets h3 {
-  font-family: 'Open Sans', sans-serif;
-}
 #footer-widgets .widget_woothemes_features .feature,
 #footer-right .widget_woothemes_features .feature {
   border-bottom: 1px solid #dadada;
@@ -206,10 +199,6 @@ ul.nav li.li.current-menu-item a {
 #footer-widgets .widget_woodojo_tweets ul li,
 #footer-right .widget_woodojo_tweets ul li {
   border-bottom: 1px solid #dadada;
-}
-#footer-widgets .widget_woothemes_testimonials h2,
-#footer-right .widget_woothemes_testimonials h2 {
-  font-family: 'Open Sans', sans-serif;
 }
 #footer-widgets .widget_woothemes_testimonials .quote,
 #footer-right .widget_woothemes_testimonials .quote {
@@ -226,20 +215,6 @@ ul.nav li.li.current-menu-item a {
   border-bottom: 1px solid #ececec;
   /* 3.1 Images */
 
-}
-.post h1,
-.type-page h1,
-.post h2,
-.type-page h2,
-.post h3,
-.type-page h3,
-.post h4,
-.type-page h4,
-.post h5,
-.type-page h5,
-.post h6,
-.type-page h6 {
-  font-family: 'Open Sans', sans-serif;
 }
 .post header h1 a:link,
 .type-page header h1 a:link,
@@ -263,11 +238,7 @@ ul.nav li.li.current-menu-item a {
 }
 .post .post-meta li.post-author a,
 .type-page .post-meta li.post-author a {
-  color: #176585;
-}
-.post .entry blockquote:before,
-.type-page .entry blockquote:before {
-  font-family: Georgia, serif;
+  color: #3399cc;
 }
 .post img,
 .type-page img,
@@ -298,7 +269,7 @@ ul.nav li.li.current-menu-item a {
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) 3px 3px 3px #888888;
 }
 .woo-pagination .page-numbers.current {
-  background: #27b1bf;
+  background: #427ab8;
 }
 /* 3.3 Single Post Author */
 #post-author {
@@ -360,7 +331,7 @@ ul.nav li.li.current-menu-item a {
   -webkit-box-shadow: 1px 1px 0 0 #ececec;
 }
 .widget_woo_blogauthorinfo p a {
-  background: #27b1bf;
+  background: #427ab8;
 }
 /* TWITTER */
 .widget_woo_twitter .back {
@@ -447,15 +418,6 @@ ul.nav li.li.current-menu-item a {
 .widget_woodojo_instagram_profile img:hover {
   border-color: #dfdfdf;
 }
-#main h1,
-#main h2,
-#main h3,
-#main h4,
-#main h5,
-#main h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-}
 /* Features Widget */
 .widget_woothemes_features .feature {
   border-bottom: 1px solid #ececec;
@@ -481,7 +443,6 @@ ul.nav li.li.current-menu-item a {
   border-bottom: 1px solid #dfdfdf;
 }
 #main .widget_woothemes_features .feature h3 {
-  font-family: 'Open Sans', sans-serif;
   color: #323232;
 }
 #main .widget_woothemes_features .feature h3 a {
@@ -491,17 +452,12 @@ ul.nav li.li.current-menu-item a {
   margin: .202em 0 0;
 }
 #main .widget_woothemes_testimonials h2 {
-  font-family: 'Open Sans', sans-serif;
   color: #323232;
 }
 #main .widget_woothemes_testimonials .quote {
   border-bottom: 1px solid #ececec;
 }
-#main #sidebar h3 {
-  font-family: Helvetica, Arial, sans-serif;
-}
 #intro-message header h1 {
-  font-family: 'Open Sans', sans-serif;
   color: #323232;
 }
 #page-content {
@@ -600,7 +556,7 @@ input[type=submit],
 input.button,
 button.button,
 #wrapper .woo-sc-button {
-  background: #27b1bf;
+  background: #427ab8;
   box-shadow: 2px 2px 3px 0 #ececec;
   -webkit-box-shadow: 2px 2px 3px 0 #ececec;
 }
@@ -647,9 +603,9 @@ div.woo-sc-box.normal {
   margin-bottom: 1.2em;
 }
 #featured-slider {
-  background: #27b1bf;
+  background: #427ab8;
   color: #eeeeee;
-  text-shadow: 0 -1px 0 #1a767f;
+  text-shadow: 0 -1px 0 #2e5580;
   /* Control Nav */
 
 }
@@ -659,9 +615,8 @@ div.woo-sc-box.normal {
 #featured-slider h4,
 #featured-slider h5,
 #featured-slider h6 {
-  font-family: 'Open Sans', sans-serif;
   color: #ffffff;
-  text-shadow: 0 -1px 0 #1a767f;
+  text-shadow: 0 -1px 0 #2e5580;
 }
 #featured-slider .flex-direction-nav a {
   background-image: url('featured_slider_nav.png');
@@ -673,28 +628,28 @@ div.woo-sc-box.normal {
   background: #fafafa;
 }
 #featured-slider .woo-sc-button {
-  box-shadow: 1px 1px 1px 0 #1e8a95;
-  -webkit-box-shadow: 1px 1px 1px 0 #1e8a95;
-  background: #16a0ae;
+  box-shadow: 1px 1px 1px 0 #356192;
+  -webkit-box-shadow: 1px 1px 1px 0 #356192;
+  background: #3169a7;
 }
 #header ul.cart {
-  border-left-color: #058f9d;
+  border-left-color: #205896;
 }
 #header ul.cart.nav li:hover {
   background: none;
 }
 #header ul.cart li a.cart-contents span {
-  background: #49d3e1;
+  background: #649cda;
 }
 .onsale {
-  background: #27b1bf;
+  background: #427ab8;
 }
 .widget .product_list_widget li .amount {
-  color: #27b1bf;
+  color: #427ab8;
 }
 .quantity .plus,
 .quantity .minus {
-  background: #27b1bf;
+  background: #427ab8;
 }
 .single-product .woocommerce_tab .tabs li a,
 .single-product .woocommerce-tabs .tabs li a {
@@ -702,13 +657,13 @@ div.woo-sc-box.normal {
 }
 .single-product .woocommerce_tab .tabs li a:hover,
 .single-product .woocommerce-tabs .tabs li a:hover {
-  color: #27b1bf;
+  color: #427ab8;
 }
 @media only screen and (min-width: 768px) {
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
-    background: #239daa;
-    border: 1px solid #2196a1;
+    background: #3b6ea5;
+    border: 1px solid #39699e;
   }
   #top ul.nav {
     /* LEVEL 2 */
@@ -718,13 +673,13 @@ div.woo-sc-box.normal {
     color: #ffffff;
   }
   #top ul.nav > li a:hover {
-    background: #20929d;
+    background: #37669a;
   }
   #top ul.nav > li:hover {
-    background: #20929d;
+    background: #37669a;
   }
   #top ul.nav ul {
-    background: #20929d;
+    background: #37669a;
   }
   /* MAIN NAVIGATION DROPDOWN MENUS (Add main navigation presentational styles here) */
   #navigation {
@@ -736,10 +691,10 @@ div.woo-sc-box.normal {
   }
   #navigation ul.nav > li a {
     color: #ffffff;
-    text-shadow: 0 -1px 0 #1e8a95;
+    text-shadow: 0 -1px 0 #356192;
   }
   #navigation ul.nav > li:hover {
-    background: #1e8a95;
+    background: #356192;
     -webkit-border-radius: 0.327em;
     border-radius: 0.327em;
     -moz-background-clip: padding;
@@ -751,18 +706,18 @@ div.woo-sc-box.normal {
   #navigation ul.nav > li.current-menu-ancestor a,
   #navigation ul.nav > li.current-cat a,
   #navigation ul.nav > li.li.current-menu-item a {
-    background: #1e8a95;
+    background: #356192;
   }
   #navigation ul.nav ul {
-    background: #1e8a95;
+    background: #356192;
   }
   #navigation ul.nav ul li a:hover {
-    background: #1a767f;
+    background: #2e5580;
   }
   .single-product .summary .price {
-    color: #27b1bf;
+    color: #427ab8;
   }
   .single-product .summary .single_add_to_cart_button {
-    background: #27b1bf;
+    background: #427ab8;
   }
 }
