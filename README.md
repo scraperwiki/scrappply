@@ -4,7 +4,9 @@ A ScraperWiki skin for the Appply theme from WooThemes
 
 #### Compiling the .less files
 
-To compile `scrappply.less` run: `lessc scrappply.less scrappply.css`
+To keep colour operations simple, Scrappply uses [less](http://lesscss.org) to preprocess its css files.
+
+To compile the less files, run `./compile`.
 
 #### Deploying to blog.scraperwiki.com
 
