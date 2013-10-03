@@ -2,4 +2,4 @@
 
 A ScraperWiki skin for the Appply theme from WooThemes
 
-To compile `style.less` run: `lessc style.less style.css`
+To compile `scrappply.less` run: `lessc scrappply.less scrappply.css`
