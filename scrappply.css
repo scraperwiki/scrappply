@@ -133,11 +133,11 @@ table tbody td {
 /* 2. SITE STRUCTURE & APPEARANCE */
 /*-------------------------------------------------------------------------------------------*/
 /* 2.2 Navigation */
-ul.nav li.current_page_item a,
-ul.nav li.current_page_parent a,
-ul.nav li.current-menu-ancestor a,
-ul.nav li.current-cat a,
-ul.nav li.li.current-menu-item a {
+body ul.nav li.current_page_item a,
+body ul.nav li.current_page_parent a,
+body ul.nav li.current-menu-ancestor a,
+body ul.nav li.current-cat a,
+body ul.nav li.li.current-menu-item a {
   background: #37669a;
 }
 #navigation {
@@ -683,18 +683,18 @@ div.woo-sc-box.normal {
     background: #37669a;
   }
   /* MAIN NAVIGATION DROPDOWN MENUS (Add main navigation presentational styles here) */
-  #navigation {
+  body #navigation {
     background: none;
   }
-  #navigation ul.nav {
+  body #navigation ul.nav {
     /* LEVEL 2 */
   
   }
-  #navigation ul.nav > li a {
+  body #navigation ul.nav > li a {
     color: #ffffff;
     text-shadow: 0 -1px 0 #356192;
   }
-  #navigation ul.nav > li:hover {
+  body #navigation ul.nav > li:hover {
     background: #356192;
     -webkit-border-radius: 0.327em;
     border-radius: 0.327em;
@@ -702,17 +702,17 @@ div.woo-sc-box.normal {
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
   }
-  #navigation ul.nav > li.current_page_item a,
-  #navigation ul.nav > li.current_page_parent a,
-  #navigation ul.nav > li.current-menu-ancestor a,
-  #navigation ul.nav > li.current-cat a,
-  #navigation ul.nav > li.li.current-menu-item a {
+  body #navigation ul.nav > li.current_page_item a,
+  body #navigation ul.nav > li.current_page_parent a,
+  body #navigation ul.nav > li.current-menu-ancestor a,
+  body #navigation ul.nav > li.current-cat a,
+  body #navigation ul.nav > li.li.current-menu-item a {
     background: #356192;
   }
-  #navigation ul.nav ul {
+  body #navigation ul.nav ul {
     background: #356192;
   }
-  #navigation ul.nav ul li a:hover {
+  body #navigation ul.nav ul li a:hover {
     background: #2e5580;
   }
   .single-product .summary .price {

@@ -101,7 +101,7 @@ table {
 /*-------------------------------------------------------------------------------------------*/
 
 /* 2.2 Navigation */
-ul.nav { // Styles applied to all instances of navigation
+body ul.nav { // Styles applied to all instances of navigation
   li {
     &.current_page_item, &.current_page_parent, &.current-menu-ancestor, &.current-cat, &.li.current-menu-item {
       a {
@@ -111,7 +111,7 @@ ul.nav { // Styles applied to all instances of navigation
   }
 }
 
-#navigation{
+#navigation {
   background: darken( @bg_top, 8% );
   ul {
     li {
@@ -750,7 +750,7 @@ p.woo-sc-box, div.woo-sc-box {
   }
 
   /* MAIN NAVIGATION DROPDOWN MENUS (Add main navigation presentational styles here) */
-  #navigation  {
+  body #navigation  {
     background: none;
       ul.nav {
         > li {
