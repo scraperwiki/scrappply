@@ -14,10 +14,12 @@ This theme has no built-in updating. You'll need to `git commit` and `git push` 
 
 ```
 cd blog.scraperwiki.com/wp-content/themes/scrappply
-git pull
+./update
 ```
 
-If you're making changes in a branch, make sure to `git checkout` the right branch before pulling.
+The `./update` script runs `git pull` and then clears the Varnish cache for each css and png file in the theme folder.
+
+If you're making changes in a branch, make sure to `git checkout` the right branch before running `./update`.
 
 #### Argh! My changes aren't showing up on blog.scraperwiki.com
 

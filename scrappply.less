@@ -151,8 +151,13 @@ body ul.nav { // Styles applied to all instances of navigation
   }
 }
 
-body.has-slider #header, body.has-top-section #header {
-  padding-top: 3em; // down from the default 3.631em, which looks unbalanced with our logo
+body.has-slider, body.has-top-section {
+  header#header {
+    padding-top: 3em; // down from the default 3.631em, which looks unbalanced with our logo
+    #logo {
+      margin-top: -5px; // move logo up a little, so it lines up with nav on the right
+    }
+  }
 }
 
 /* 2.6 Footer */
