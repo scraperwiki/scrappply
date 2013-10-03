@@ -29,7 +29,6 @@
 /* 1.1 Defaults */
 body  {
   color: @color_body;
-  font-family: @sans;
 }
 
 hr { background-color: @border_main; }
@@ -46,7 +45,6 @@ a {
 /* 1.3 Typography */
 
 h1, h2, h3, h4, h5, h6  {
-  font-family: @sans;
   color: @color_headings;
 }
 
@@ -142,7 +140,6 @@ ul.nav { // Styles applied to all instances of navigation
   }
   .site-description {
     color: lighten(@color_body, 10%);
-    font-family: @serif_google;
   }
 }
 #top-section {
@@ -150,7 +147,6 @@ ul.nav { // Styles applied to all instances of navigation
   border: 1px solid @bg_top + #333;
   header {
     h1 {
-      font-family: @headings_font;
       .text_shadow( 1px, -1px, 0, lighten(@bg_top, 10%) );
     }
   }
@@ -176,9 +172,6 @@ ul.nav { // Styles applied to all instances of navigation
 
 #footer-widgets {
   border-bottom: 1px solid darken(@border_main, 7%);
-  h3 {
-    font-family: @headings_font;
-  }
 }
 
 #footer-widgets, #footer-right {
@@ -195,9 +188,6 @@ ul.nav { // Styles applied to all instances of navigation
     }
   }
   .widget_woothemes_testimonials {
-    h2 {
-      font-family: @headings_font;
-    }
     .quote {
       border-bottom:1px solid darken(@border_main, 7%);
     }
@@ -213,9 +203,6 @@ ul.nav { // Styles applied to all instances of navigation
 
 .post, .type-page {
   border-bottom: 1px solid @border_main;
-  h1, h2, h3, h4, h5, h6 {
-    font-family: @headings_font;
-  }
   header h1 {
     a:link, a:visited {
       color: darken(@color_body, 31%);
@@ -233,13 +220,6 @@ ul.nav { // Styles applied to all instances of navigation
       }
       &.post-author {
         a { color: @color_links; }
-      }
-    }
-  }
-  .entry {
-    blockquote  {
-      &:before  {
-        font-family: @serif;
       }
     }
   }
@@ -448,13 +428,6 @@ ul.nav { // Styles applied to all instances of navigation
   }
 }
 
-#main {
-  h1, h2, h3, h4, h5, h6 {
-    font-family: @headings_font;
-    font-weight: 300;
-  }
-}
-
 /* Features Widget */
 .widget_woothemes_features {
   .feature {
@@ -486,7 +459,6 @@ ul.nav { // Styles applied to all instances of navigation
   .widget_woothemes_features {
     .feature {
       h3 {
-        font-family: @headings_font;
         color: darken( @color_body, 31% );
         a {
           color: darken( @color_body, 31% );
@@ -499,16 +471,10 @@ ul.nav { // Styles applied to all instances of navigation
   }
   .widget_woothemes_testimonials {
     h2 {
-      font-family: @headings_font;
       color: darken( @color_body, 31% );
     }
     .quote {
       border-bottom: 1px solid @border_main;
-    }
-  }
-  #sidebar {
-    h3 {
-      font-family: @sans;
     }
   }
 }
@@ -516,7 +482,6 @@ ul.nav { // Styles applied to all instances of navigation
 #intro-message {
   header {
     h1 {
-      font-family: @headings_font;
       color: darken( @color_body, 31% );
     }
   }
@@ -542,7 +507,6 @@ ul.nav { // Styles applied to all instances of navigation
         color: @color_body;
         a { color: @color_body; }
       }
-      .date, .edit, .perma { }
     }
     .avatar {
       border: 1px solid @border_main;
@@ -687,7 +651,6 @@ p.woo-sc-box, div.woo-sc-box {
   color: @color_slider - #111;
   .text_shadow(0, -1px, 0, darken( @bg_top, 15% ) );
   h1, h2, h3, h4, h5, h6 {
-    font-family: @headings_font;
     color: @color_slider;
     .text_shadow(0, -1px, 0, darken( @bg_top, 15% ) );
   }
@@ -782,7 +745,6 @@ p.woo-sc-box, div.woo-sc-box {
         /* LEVEL 2 */
         ul {
           background: darken(@bg_top, 8%);
-
         }
       }
   }
