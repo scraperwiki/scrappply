@@ -173,6 +173,10 @@ body ul.nav li.li.current-menu-item a {
 #top-section header h1 {
   text-shadow: 1px -1px 0 #6594c8;
 }
+body.has-slider #header,
+body.has-top-section #header {
+  padding-top: 3em;
+}
 /* 2.6 Footer */
 #footer-wrapper {
   background: #f1f1f1;
