@@ -736,6 +736,19 @@ p.woo-sc-box, div.woo-sc-box {
   }
 }
 
+/*-------------------------------------------------------------------------------------------*/
+/* FIX WONKY WOOTHEMES SHORTCODE UNORDERED-LIST BULLET PLACEMENT */
+/*-------------------------------------------------------------------------------------------*/
+
+.entry .shortcode-unorderedlist, .shortcode-unorderedlist {
+  &.tick, &.red-x, &.bullet, &.green-dot, &.arrow, &.star {
+    ul li {
+      background-position: left center;
+    }
+  }
+}
+
+
 @media only screen and (min-width: 768px) {
 
    /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */

@@ -671,6 +671,23 @@ div.woo-sc-box.normal {
 .single-product .woocommerce-tabs .tabs li a:hover {
   color: #427ab8;
 }
+/*-------------------------------------------------------------------------------------------*/
+/* FIX WONKY WOOTHEMES SHORTCODE UNORDERED-LIST BULLET PLACEMENT */
+/*-------------------------------------------------------------------------------------------*/
+.entry .shortcode-unorderedlist.tick ul li,
+.shortcode-unorderedlist.tick ul li,
+.entry .shortcode-unorderedlist.red-x ul li,
+.shortcode-unorderedlist.red-x ul li,
+.entry .shortcode-unorderedlist.bullet ul li,
+.shortcode-unorderedlist.bullet ul li,
+.entry .shortcode-unorderedlist.green-dot ul li,
+.shortcode-unorderedlist.green-dot ul li,
+.entry .shortcode-unorderedlist.arrow ul li,
+.shortcode-unorderedlist.arrow ul li,
+.entry .shortcode-unorderedlist.star ul li,
+.shortcode-unorderedlist.star ul li {
+  background-position: left center;
+}
 @media only screen and (min-width: 768px) {
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
