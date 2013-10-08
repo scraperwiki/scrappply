@@ -689,7 +689,7 @@ div.woo-sc-box.normal {
   color: #427ab8;
 }
 /*-------------------------------------------------------------------------------------------*/
-/* FIX WONKY WOOTHEMES SHORTCODE UNORDERED-LIST BULLET PLACEMENT */
+/* FIX WONKY WOOTHEMES SHORTCODE BITS */
 /*-------------------------------------------------------------------------------------------*/
 html .entry .shortcode-unorderedlist.tick ul li,
 html .shortcode-unorderedlist.tick ul li,
@@ -704,6 +704,38 @@ html .shortcode-unorderedlist.arrow ul li,
 html .entry .shortcode-unorderedlist.star ul li,
 html .shortcode-unorderedlist.star ul li {
   background-position: left center;
+}
+html .entry .twocol-one,
+html .twocol-one,
+html .entry .threecol-one,
+html .threecol-one,
+html .entry .threecol-two,
+html .threecol-two,
+html .entry .fourcol-one,
+html .fourcol-one,
+html .entry .fourcol-two,
+html .fourcol-two,
+html .entry .fourcol-three,
+html .fourcol-three,
+html .entry .fivecol-one,
+html .fivecol-one,
+html .entry .fivecol-two,
+html .fivecol-two,
+html .entry .fivecol-three,
+html .fivecol-three,
+html .entry .fivecol-four,
+html .fivecol-four,
+html .entry .sixcol-one,
+html .sixcol-one,
+html .entry .sixcol-two,
+html .sixcol-two,
+html .entry .sixcol-three,
+html .sixcol-three,
+html .entry .sixcol-four,
+html .sixcol-four,
+html .entry .sixcol-five,
+html .sixcol-five {
+  margin-bottom: 0;
 }
 @media only screen and (min-width: 768px) {
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
