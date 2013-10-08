@@ -743,6 +743,12 @@ html .sixcol-five {
 .shortcode-toggle .toggle-trigger a {
   color: #000;
 }
+html .shortcode-tabs ul.tab_titles li.nav-tab.ui-state-active a {
+  background: #fff;
+}
+html .shortcode-tabs ul.tab_titles li.nav-tab.ui-state-hover a {
+  background: #f3f3f3;
+}
 @media only screen and (min-width: 768px) {
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
