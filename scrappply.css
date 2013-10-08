@@ -485,6 +485,11 @@ body.has-top-section header#header #logo {
 #main .widget_woothemes_testimonials .quote {
   border-bottom: 1px solid #ececec;
 }
+/* Tweaks for homepage features titles */
+body.home #main .widget_woothemes_features .columns-3 h3 {
+  margin-bottom: 0.7em;
+  padding-left: 80px;
+}
 #intro-message header h1 {
   color: #323232;
 }
