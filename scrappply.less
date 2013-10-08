@@ -242,6 +242,13 @@ body.has-slider, body.has-top-section {
     &:hover {
       border-color: darken(@border_main, 5%);
     }
+    &.borderless {
+      border: none;
+      .box_shadow(none, 0, 0, 0, transparent);
+      &:hover {
+        border: none;
+      }
+    }
   }
   .wp-caption {
     background: @bg_light;

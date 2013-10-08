@@ -265,6 +265,20 @@ body.has-top-section header#header #logo {
 .type-page img.thumbnail:hover {
   border-color: #dfdfdf;
 }
+.post img.borderless,
+.type-page img.borderless,
+.post img.thumbnail.borderless,
+.type-page img.thumbnail.borderless {
+  border: none;
+  box-shadow: none 0 0 0 transparent;
+  -webkit-box-shadow: none 0 0 0 transparent;
+}
+.post img.borderless:hover,
+.type-page img.borderless:hover,
+.post img.thumbnail.borderless:hover,
+.type-page img.thumbnail.borderless:hover {
+  border: none;
+}
 .post .wp-caption,
 .type-page .wp-caption {
   background: #fafafa;
