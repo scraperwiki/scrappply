@@ -737,6 +737,12 @@ html .entry .sixcol-five,
 html .sixcol-five {
   margin-bottom: 0;
 }
+.shortcode-toggle .toggle-content + p {
+  display: none;
+}
+.shortcode-toggle .toggle-trigger a {
+  color: #000;
+}
 @media only screen and (min-width: 768px) {
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
