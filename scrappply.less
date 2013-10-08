@@ -771,12 +771,17 @@ html .entry, html {
   }
 }
 
-html .shortcode-tabs ul.tab_titles li.nav-tab {
-  &.ui-state-hover a {
-    background: #f3f3f3;
+html .shortcode-tabs {
+  ul.tab_titles li.nav-tab {
+    &.ui-state-hover a {
+      background: #f3f3f3;
+    }
+    &.ui-state-active a {
+      background: #fff;
+    }
   }
-  &.ui-state-active a {
-    background: #fff;
+  .tab {
+    overflow: auto;
   }
 }
 

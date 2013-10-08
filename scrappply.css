@@ -749,6 +749,9 @@ html .shortcode-tabs ul.tab_titles li.nav-tab.ui-state-hover a {
 html .shortcode-tabs ul.tab_titles li.nav-tab.ui-state-active a {
   background: #fff;
 }
+html .shortcode-tabs .tab {
+  overflow: auto;
+}
 @media only screen and (min-width: 768px) {
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
