@@ -270,8 +270,8 @@ body.has-top-section header#header #logo {
 .post img.thumbnail.borderless,
 .type-page img.thumbnail.borderless {
   border: none;
-  box-shadow: none 0 0 0 transparent;
-  -webkit-box-shadow: none 0 0 0 transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
 }
 .post img.borderless:hover,
 .type-page img.borderless:hover,
