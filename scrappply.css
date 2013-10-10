@@ -470,6 +470,9 @@ body.has-top-section header#header #logo {
 #main .widget {
   border-bottom: 1px solid #dfdfdf;
 }
+#main .widget:last-child {
+  border-bottom: none;
+}
 #main .widget_woothemes_features .feature h3 {
   color: #323232;
 }
