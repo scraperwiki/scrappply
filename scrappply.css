@@ -478,7 +478,7 @@ body.has-top-section header#header #logo {
   border-bottom: none;
   margin-bottom: 0;
 }
-#main .widget article:last-child {
+#main .widget #page-content article {
   padding-bottom: 0;
 }
 #main .widget_woothemes_features .feature h3 {
