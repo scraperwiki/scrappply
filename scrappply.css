@@ -470,7 +470,8 @@ body.has-top-section header#header #logo {
 #main .widget {
   border-bottom: 1px solid #dfdfdf;
 }
-#main .widget:last-child {
+#main .widget:last-child,
+#main .widget #page-content {
   border-bottom: none;
   padding-bottom: 0;
 }
