@@ -591,7 +591,7 @@ input[type=email] {
   color: #818181;
   border: 1px solid #dadada;
 }
-/* 8.2 Buttons (Includes WF chortcode buttons) */
+/* 8.2 Buttons (Includes WF shortcode buttons) */
 a.button,
 a.comment-reply-link,
 #commentform #submit,
@@ -601,8 +601,8 @@ input.button,
 button.button,
 #wrapper .woo-sc-button {
   background: #427ab8;
-  box-shadow: 2px 2px 3px 0 #ececec;
-  -webkit-box-shadow: 2px 2px 3px 0 #ececec;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
 }
 a.button.green,
 a.comment-reply-link.green,

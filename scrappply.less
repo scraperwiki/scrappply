@@ -641,7 +641,7 @@ input[type=text], input.input-text, textarea, input.txt, input[type=tel], input[
   border: 1px solid darken(@border_main, 7%);
 }
 
-/* 8.2 Buttons (Includes WF chortcode buttons) */
+/* 8.2 Buttons (Includes WF shortcode buttons) */
 a.button,
 a.comment-reply-link,
 #commentform #submit,
@@ -651,7 +651,7 @@ input.button,
 button.button,
 #wrapper .woo-sc-button {
   background: @color_buttons;
-  .box_shadow(2px, 2px, 3px, 0, @border_main);
+  .box_shadow(0, 1px, 2px, 0, rgba(0,0,0,0.2));
 
   &.green {
       background: @color_buttons2;
