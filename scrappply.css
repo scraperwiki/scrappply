@@ -491,7 +491,7 @@ body.has-top-section header#header #logo {
 #main .widget_woothemes_features .feature .feature-image {
   margin: .202em 0 0;
 }
-#main .widget_woothemes_features .feature .feature-content {
+#main .widget_woothemes_features .feature div.feature-content {
   width: 75%;
 }
 #main .widget_woothemes_testimonials h2 {
