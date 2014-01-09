@@ -794,6 +794,9 @@ html .shortcode-tabs .tab {
   #top ul.nav ul {
     background: #37669a;
   }
+  #wrapper #header .header-left {
+    width: auto;
+  }
   /* MAIN NAVIGATION DROPDOWN MENUS (Add main navigation presentational styles here) */
   body #navigation {
     background: none;
