@@ -559,6 +559,11 @@ body.home #main .widget_woothemes_features .columns-3 h3 {
 h3.archive_year {
   color: #818181;
 }
+#main > .post .post-meta {
+  clear: none;
+  /* avoid ugly breaking after featured images in post lists */
+
+}
 .page-template-template-contact-php .location-twitter {
   border-bottom: 1px solid #ececec;
 }
