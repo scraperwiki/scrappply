@@ -174,10 +174,12 @@ body ul.nav li.li.current-menu-item a {
   text-shadow: 1px -1px 0 #6594c8;
 }
 body.has-slider header#header,
+body.home header#header,
 body.has-top-section header#header {
   padding-top: 3em;
 }
 body.has-slider header#header #logo,
+body.home header#header #logo,
 body.has-top-section header#header #logo {
   margin-top: -5px;
 }
