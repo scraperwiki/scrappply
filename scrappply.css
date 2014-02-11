@@ -74,6 +74,10 @@ h5,
 h6 {
   color: #333333;
 }
+#main .entry {
+  font-size: 16px;
+  line-height: 26px;
+}
 /* 1.4 Tables */
 table {
   border: 1px solid #ececec;
