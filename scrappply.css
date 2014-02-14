@@ -204,10 +204,12 @@ body.has-top-section header#header #logo {
 #footer {
   color: #707070;
 }
-#footer #footer-nav li {
+#footer #footer-nav li,
+#footer .widget li {
   border-right: 1px solid #ececec;
 }
-#footer #footer-nav li a {
+#footer #footer-nav li a,
+#footer .widget li a {
   color: #323232;
 }
 #footer .credit {
@@ -227,6 +229,9 @@ body.has-top-section header#header #logo {
 #footer-widgets .widget_woothemes_testimonials .quote,
 #footer-right .widget_woothemes_testimonials .quote {
   border-bottom: 1px solid #dadada;
+}
+#footer-right {
+  text-align: right;
 }
 /*-------------------------------------------------------------------------------------------*/
 /* 3. POSTS */
