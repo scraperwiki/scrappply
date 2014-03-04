@@ -188,6 +188,7 @@ body.has-top-section header#header #logo {
   margin-top: -5px;
 }
 #navigation ul.nav ul.sub-menu {
+  min-width: 13em;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
 }
