@@ -808,6 +808,17 @@ html .shortcode-tabs ul.tab_titles li.nav-tab.ui-state-active a {
 html .shortcode-tabs .tab {
   overflow: auto;
 }
+html .post img.wp-smiley,
+html .type-page img.wp-smiley,
+html .type-feature img.wp-smiley,
+html .type-testimonial img.wp-smiley,
+html .search-results .page img.wp-smiley,
+html .search-results .type-product img.wp-smiley,
+html .search-results .type-feature img.wp-smiley,
+html .search-results .type-testimonial img.wp-smiley {
+  vertical-align: middle;
+  margin: 0 3px;
+}
 @media only screen and (min-width: 768px) {
   /* 2. TOP NAVIGATION (Add top navigation presentational styles here) */
   #top {
