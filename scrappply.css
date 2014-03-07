@@ -53,7 +53,7 @@
 /*-------------------------------------------------------------------------------------------*/
 /* 1.1 Defaults */
 body {
-  color: #818181;
+  color: #666666;
 }
 hr {
   background-color: #ececec;
@@ -169,7 +169,7 @@ body ul.nav li.li.current-menu-item a {
   background-clip: padding-box;
 }
 #header .site-description {
-  color: #9b9b9b;
+  color: #808080;
 }
 #top-section {
   background: #649cda;
@@ -204,7 +204,7 @@ body.has-top-section header#header #logo {
   -webkit-box-shadow: inset 0 1px 5px 1px #d8d8d8;
 }
 #footer {
-  color: #707070;
+  color: #555555;
 }
 #footer #footer-nav li,
 #footer .widget li {
@@ -212,7 +212,7 @@ body.has-top-section header#header #logo {
 }
 #footer #footer-nav li a,
 #footer .widget li a {
-  color: #323232;
+  color: #171717;
 }
 #footer .credit {
   display: none;
@@ -251,21 +251,21 @@ body.has-top-section header#header #logo {
 .type-page header h1 a:link,
 .post header h1 a:visited,
 .type-page header h1 a:visited {
-  color: #323232;
+  color: #171717;
 }
 .post .post-meta,
 .type-page .post-meta {
-  color: #a7a7a7;
+  color: #8c8c8c;
 }
 .post .post-meta .img-wrap,
 .type-page .post-meta .img-wrap {
   border: 1px solid #ececec;
-  box-shadow: 0 1px 1px 0 #f4f4f4;
-  -webkit-box-shadow: 0 1px 1px 0 #f4f4f4;
+  box-shadow: 0 1px 1px 0 #d9d9d9;
+  -webkit-box-shadow: 0 1px 1px 0 #d9d9d9;
 }
 .post .post-meta li a,
 .type-page .post-meta li a {
-  color: #5b5b5b;
+  color: #404040;
 }
 .post .post-meta li.post-author a,
 .type-page .post-meta li.post-author a {
@@ -309,10 +309,10 @@ body.has-top-section header#header #logo {
 }
 /* 3.2 Pagination / WP-Pagenavi / Woo-Pagination */
 .nav-entries a {
-  color: #818181;
+  color: #666666;
 }
 .woo-pagination .page-numbers {
-  color: #535353;
+  color: #383838;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) 3px 3px 3px #888888;
   -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1) 3px 3px 3px #888888;
 }
@@ -355,7 +355,7 @@ body.has-top-section header#header #logo {
 #searchform .s,
 #searchform #s {
   border: 1px solid #ececec;
-  color: #818181;
+  color: #666666;
 }
 /* FLICKR */
 .widget_woo_flickr a img {
@@ -370,7 +370,7 @@ body.has-top-section header#header #logo {
   background: #e1e1e1;
 }
 #wp-calendar td {
-  color: #9b9b9b;
+  color: #808080;
 }
 /* BLOG AUTHOR */
 .widget_woo_blogauthorinfo .avatar {
@@ -392,13 +392,13 @@ body.has-top-section header#header #logo {
   border-bottom: 1px solid #ececec;
 }
 .widget_woo_twitter ul li .time {
-  color: #9b9b9b;
+  color: #808080;
 }
 .widget_woo_twitter p {
-  color: #9b9b9b;
+  color: #808080;
 }
 .widget_woo_twitter p a {
-  color: #4e4e4e;
+  color: #333333;
 }
 /* WOOTABS */
 .widget_woodojo_tabs ul.nav-tabs,
@@ -415,7 +415,7 @@ body.has-top-section header#header #logo {
 .widget_woodojo_tabs ul.tabs li a,
 .woocommerce_tabs ul.tabs li a,
 .woocommerce-tabs ul.tabs li a {
-  color: #818181;
+  color: #666666;
 }
 .widget_woodojo_tabs ul.nav-tabs li:last-child a,
 .woocommerce_tabs ul.nav-tabs li:last-child a,
@@ -431,13 +431,13 @@ body.has-top-section header#header #logo {
 .widget_woodojo_tabs ul.tabs li.active a,
 .woocommerce_tabs ul.tabs li.active a,
 .woocommerce-tabs ul.tabs li.active a {
-  color: #323232;
+  color: #171717;
 }
 .widget_woodojo_tabs img {
   border: 1px solid #ececec;
 }
 .widget_woodojo_tabs .meta {
-  color: #b4b4b4;
+  color: #999999;
 }
 .widget_woodojo_instagram img {
   border: 1px solid #ececec;
@@ -446,7 +446,7 @@ body.has-top-section header#header #logo {
   border: 1px solid #ececec;
 }
 .widget_woodojo_tweets .time-ago a {
-  color: #b4b4b4;
+  color: #999999;
 }
 .widget_woodojo_tweets ul li {
   border-bottom: 1px solid #ececec;
@@ -484,7 +484,7 @@ body.has-top-section header#header #logo {
   -webkit-box-shadow: 1px 1px 0 0 #ececec;
 }
 .widget_woothemes_testimonials .quote .author {
-  color: #a7a7a7;
+  color: #8c8c8c;
 }
 /* Homepage Widgets Styling */
 #main .widget {
@@ -502,14 +502,14 @@ body.has-top-section header#header #logo {
   padding-bottom: 0;
 }
 #main .widget_woothemes_features .feature h3 {
-  color: #323232;
+  color: #171717;
   margin-bottom: 0.7em;
   font-size: 1.3em;
   /* slightly smaller, because #main .entry size has gone up */
 
 }
 #main .widget_woothemes_features .feature h3 a {
-  color: #323232;
+  color: #171717;
 }
 #main .widget_woothemes_features .feature div.feature-image {
   margin: .202em 0 0;
@@ -524,7 +524,7 @@ body.has-top-section header#header #logo {
   width: 75%;
 }
 #main .widget_woothemes_testimonials h2 {
-  color: #323232;
+  color: #171717;
 }
 #main .widget_woothemes_testimonials .quote {
   border-bottom: 1px solid #ececec;
@@ -538,7 +538,7 @@ body.home #main .widget_woothemes_features .columns-3 h3 {
 
 }
 #intro-message header h1 {
-  color: #323232;
+  color: #171717;
 }
 #page-content {
   border-bottom: 1px solid #ececec;
@@ -551,25 +551,25 @@ body.home #main .widget_woothemes_features .columns-3 h3 {
   border-bottom: 1px solid #ececec;
 }
 #comments .comment .comment-head {
-  color: #cecece;
+  color: #b3b3b3;
 }
 #comments .comment .comment-head .name {
-  color: #818181;
+  color: #666666;
 }
 #comments .comment .comment-head .name a {
-  color: #818181;
+  color: #666666;
 }
 #comments .comment .avatar {
   border: 1px solid #ececec;
-  box-shadow: 0 1px 1px 0 #f4f4f4;
-  -webkit-box-shadow: 0 1px 1px 0 #f4f4f4;
+  box-shadow: 0 1px 1px 0 #d9d9d9;
+  -webkit-box-shadow: 0 1px 1px 0 #d9d9d9;
 }
 #comments .comment .reply a {
-  color: #5b5b5b;
+  color: #404040;
 }
 /* 5.2 Comments Form */
 #respond label {
-  color: #818181;
+  color: #666666;
 }
 #comments h3,
 #respond h3 {
@@ -583,13 +583,13 @@ body.home #main .widget_woothemes_features .columns-3 h3 {
   border-left: 1px solid #ececec;
 }
 #archives .archives_list .date {
-  color: #9b9b9b;
+  color: #808080;
 }
 #archives .archives_list .comments a {
-  color: #a7a7a7;
+  color: #8c8c8c;
 }
 h3.archive_year {
-  color: #818181;
+  color: #666666;
 }
 #main > .post .post-meta {
   clear: none;
@@ -600,7 +600,7 @@ h3.archive_year {
   border-bottom: 1px solid #ececec;
 }
 .page-template-template-contact-php .location-twitter .contact-social #twitter ul li a.time {
-  color: #a7a7a7;
+  color: #8c8c8c;
 }
 .page-template-template-contact-php .location-twitter .contact-social #connect {
   border-top: 1px solid #ececec;
@@ -629,7 +629,7 @@ textarea,
 input.txt,
 input[type=tel],
 input[type=email] {
-  color: #818181;
+  color: #666666;
   border: 1px solid #dadada;
 }
 /* 8.2 Buttons (Includes WF shortcode buttons) */
@@ -668,7 +668,7 @@ button.button.green:hover,
 /* 8.3 Shortcode info boxes */
 p.woo-sc-box,
 div.woo-sc-box {
-  color: #5b5b5b;
+  color: #404040;
 }
 p.woo-sc-box.info,
 div.woo-sc-box.info {
